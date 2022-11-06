@@ -2,8 +2,10 @@
 
 Free Riot Account Creator
 
+10 STARS FOR RELEASE
+
 ```
-[X] Account Creator
+[+] Account Creator
 ```
 
 ![Screenshot](picture.png)
