@@ -6,7 +6,7 @@ Free Riot Account Creator
 [X] Account Creator
 ```
 
-![Screenshot](aio2.png)
+![Screenshot](picture.png)
 
 ```
 Hello skid!
