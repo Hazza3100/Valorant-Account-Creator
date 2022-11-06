@@ -2,7 +2,8 @@
 
 Free Riot Account Creator
 
-10 STARS FOR RELEASE
+10 STARS FOR RELEASE 
+Hit target! Will release soon.
 
 ```
 [+] Account Creator
