@@ -67,7 +67,7 @@ class valo:
             proxies = {'http': f'http://{proxy}', 'https': f'http://{proxy}'}
 
             username = random.choice(open('data/usernames.txt', 'r').read().splitlines()) + ''.join(random.choices(string.ascii_letters, k=2))
-            email    = username + ''.join(random.choices(string.ascii_letters + string.ascii_uppercase + string.digits, k=3)) + "gmail.com"
+            email    = username + ''.join(random.choices(string.ascii_letters + string.ascii_uppercase + string.digits, k=3)) + "@gmail.com"
             password = ''.join(random.choices(string.ascii_letters + string.ascii_uppercase + string.digits, k=10))
             headers  = {'authority': 'signup-api.riotgames.com','accept': '*/*','accept-language': 'en-GB,en;q=0.9','origin': 'https://auth.riotgames.com','referer': 'https://auth.riotgames.com/','sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"','sec-ch-ua-mobile': '?0','sec-ch-ua-platform': '"Windows"','sec-fetch-dest': 'empty','sec-fetch-mode': 'cors','sec-fetch-site': 'same-site','user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',}
 
